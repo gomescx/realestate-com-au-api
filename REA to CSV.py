@@ -5,7 +5,7 @@ api = RealestateComAu()
 
 # Get property listings
 # listings = api.search(locations=["seventeen seventy, qld 4677"], channel="buy", keywords=["tenant"], exclude_keywords=["pool"])
-listings = api.search(locations=["ijong st Braddon, ACT 2612"], channel="sold")
+listings = api.search(locations=["Mossy Point, NSW 2537"],surrounding_suburbs=True, channel="sold")
 
 import csv
 
